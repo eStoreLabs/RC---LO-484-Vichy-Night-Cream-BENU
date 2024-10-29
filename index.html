@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="lt">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -543,7 +543,7 @@
         font-size: 25px;
         font-weight: 700;
         text-align: left;
-        margin-bottom: 32px;
+        margin-bottom: 80px;
       }
       #es-vichy.es-vichy .es-ingr__container {
         position: relative;
@@ -1151,7 +1151,12 @@
           margin-top: 16%;
         }
       }
-      @media screen and (min-width: 400px) {
+      @media screen and (min-width: 500px) {
+        #es-vichy.es-vichy .es-ingr__container::before {
+          display: none;
+        }
+      }
+      @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-kv__content {
           min-height: 625px;
         }
@@ -1166,13 +1171,13 @@
           right: calc(100vw - 84%);
         }
       }
-      @media screen and (min-width: 450px) {
+      @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-ingr__container::before {
           top: -21%;
           right: calc(100vw - 85%);
         }
       }
-      @media screen and (min-width: 500px) {
+      @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-disclaimer__img--mobile {
           display: none;
         }
@@ -1190,7 +1195,7 @@
           margin-left: 18%;
         }
       }
-      @media screen and (min-width: 550px) {
+      @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-kv__title {
           font-size: 19px;
         }
@@ -1229,7 +1234,7 @@
           display: none;
         }
       }
-      @media screen and (min-width: 560px) {
+      @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-kv {
           display: flex;
         }
@@ -1300,7 +1305,7 @@
           display: block;
         }
       }
-      @media screen and (min-width: 600px) {
+      @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-ingr__container::before {
           display: none;
         }
@@ -1311,7 +1316,7 @@
           display: none;
         }
         #es-vichy.es-vichy .es-ingr__single {
-          max-width: 175px;
+          max-width: 160px;
           transition: all 0.3s ease;
         }
         #es-vichy.es-vichy .es-ingr .es-ingr__slides:hover .es-ingr__single {
@@ -1390,7 +1395,7 @@
           display: none;
         }
       }
-      @media screen and (min-width: 650px) {
+      @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-info__wrapper {
           background: #fff url(./assets/images/info-image.png) -9px -86px
             no-repeat;
@@ -1403,7 +1408,7 @@
           margin-left: 40%;
         }
       }
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-title {
           margin-bottom: 50px;
           font-size: 30px;
@@ -1527,7 +1532,7 @@
           text-align: left;
         }
       }
-      @media screen and (min-width: 860px) {
+      @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-cross__container {
           justify-content: space-between;
         }
@@ -1703,7 +1708,7 @@
   </head>
   <body>
     <div class="es-vichy" id="es-vichy">
-      <section class="es-kv">
+      <div class="es-kv">
         <div class="es-kv__images">
           <div class="es-kv__logo">
             <img
@@ -1742,9 +1747,9 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="es-icons">
+      <div class="es-icons">
         <div class="es-icons__list">
           <div class="es-icons__item">
             <img
@@ -1785,9 +1790,9 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="es-info">
+      <div class="es-info">
         <div class="es-info__border">
           <h3 class="es-title es-info__title">
             <span>Veiksminga apsauga</span> nuo pigmentinių
@@ -1834,9 +1839,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </div>
 
-      <section class="es-dermatologits">
+      <div class="es-dermatologits">
         <h3 class="es-title es-dermatologits__title">
           Veiksmingas poveikis naudojant <br />
 
@@ -1859,9 +1864,9 @@
           src="./assets/images/dermatologist-bg-m.png"
           alt="mažiau PIGMENTINIŲ POKYČIŲ PER 2 MĖNESIUS"
         />
-      </section>
+      </div>
 
-      <section class="es-ingr">
+      <div class="es-ingr">
         <h3 class="es-title es-ingr__title">
           Efektyvios veikliosios medžiagos
         </h3>
@@ -2062,9 +2067,9 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="es-compare">
+      <div class="es-compare">
         <h3 class="es-title es-compare__title">
           <span>Atraskite naktinį kremą, pritaikytą Jūsų poreikiams </span>
         </h3>
@@ -2402,9 +2407,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="es-cross">
+      <div class="es-cross">
         <h3 class="es-title es-cross__title">
           24 valandas veikianti priežiūros priemonė, <br />apsauganti nuo
           pigmentinių pokyčių
@@ -2487,7 +2492,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <div class="es-faq">
         <div class="es-faq__text">
@@ -2500,6 +2505,7 @@
             </h3>
             <div class="es-accordion__element-content acc-content">
               <p>
+                <br><br>
                 Naudojimo pradžioje retinolis gali sukelti nežymų paraudimą,
                 sausumą arba dilgčiojimą. Svarbu retinolį įtraukti pamažu, kad oda
                 spėtų prie jo priprasti.<br />
