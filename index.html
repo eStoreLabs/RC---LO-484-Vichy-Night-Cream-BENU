@@ -290,7 +290,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background: url('./assets/images/photo.jpg') center/cover no-repeat;
+        background: url('http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/photo.jpg') center/cover no-repeat;
         padding-top: 45px;
         display: flex;
         justify-content: flex-end;
@@ -331,6 +331,7 @@
       #es-vichy.es-vichy .es-kv__title sup {
         vertical-align: top;
         font-size: 12px;
+        top: 0;
       }
       #es-vichy.es-vichy .es-kv__subtitle {
         margin: 0;
@@ -355,6 +356,7 @@
       #es-vichy.es-vichy .es-kv__subtitle sup {
         vertical-align: top;
         font-size: 12px;
+        top: 0;
       }
       #es-vichy.es-vichy .es-icons {
         background-color: #f4f4f4;
@@ -395,7 +397,7 @@
       }
       #es-vichy.es-vichy .es-info__wrapper {
         min-height: 257px;
-        background: #fff url('./assets/images/info-image-mobile.png') 0px 0px
+        background: #fff url('http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/info-image-mobile.png') 0px 0px
           no-repeat;
         background-size: auto;
       }
@@ -432,7 +434,7 @@
         content: '';
         width: 30px;
         height: 30px;
-        background: url('./assets/images/list-icon-1-m.png') no-repeat;
+        background: url('http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/list-icon-1-m.png') no-repeat;
         position: absolute;
         top: 0px;
         left: -42px;
@@ -445,7 +447,7 @@
         content: '';
         width: 30px;
         height: 30px;
-        background: url(./assets/images/list-icon-2-m.png) no-repeat;
+        background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/list-icon-2-m.png) no-repeat;
         position: absolute;
         top: 4px;
         left: -50px;
@@ -458,7 +460,7 @@
         content: '';
         width: 30px;
         height: 30px;
-        background: url(./assets/images/list-icon-3-m.png) no-repeat;
+        background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/list-icon-3-m.png) no-repeat;
         position: absolute;
         top: -5px;
         left: -45px;
@@ -471,7 +473,7 @@
         content: '';
         width: 30px;
         height: 30px;
-        background: url(./assets/images/list-icon-4-m.png) no-repeat;
+        background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/list-icon-4-m.png) no-repeat;
         position: absolute;
         top: -7px;
         left: -49px;
@@ -557,7 +559,7 @@
         right: -4%;
         width: 90%;
         height: 166px;
-        background-image: url('./assets/images/handle.png');
+        background-image: url('http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/handle.png');
         background-repeat: no-repeat;
         background-position: center right;
       }
@@ -920,14 +922,14 @@
         height: 100%;
         top: 0;
         right: 0;
-        background: url(./assets/images/plus.png) 50% 50% no-repeat;
+        background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/plus.png) 50% 50% no-repeat;
         color: #fff;
         text-align: center;
         line-height: 50px;
         transition: all 200ms ease-out;
       }
       #es-vichy.es-vichy .es-faq .es-accordion .acc-tab.active:before {
-        background: url(./assets/images/minus.png) 50% 50% no-repeat;
+        background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/minus.png) 50% 50% no-repeat;
       }
       #es-vichy.es-vichy .es-faq .es-accordion > div:last-of-type {
         margin-bottom: 0;
@@ -1290,7 +1292,7 @@
           display: flex;
           justify-content: flex-start;
           align-items: center;
-          background: url(./assets/images/dermatologist-bg.png) center no-repeat;
+          background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/dermatologist-bg.png) center no-repeat;
           min-height: 220px;
           background-size: cover;
         }
@@ -1335,7 +1337,7 @@
         }
         #es-vichy.es-vichy .es-info__wrapper {
           min-height: 382px;
-          background: #fff url(./assets/images/info-image.png) -49px -85px
+          background: #fff url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/info-image.png) -49px -85px
             no-repeat;
           background-size: contain;
         }
@@ -1367,9 +1369,9 @@
         }
         #es-vichy.es-vichy .es-cross__container {
           gap: 10px;
-          flex-flow: row;
+          flex-flow: column;
           flex-wrap: wrap;
-          align-items: flex-end;
+          align-items: center;
         }
         #es-vichy.es-vichy .es-video__player--mobile {
           display: none;
@@ -1388,14 +1390,8 @@
         #es-vichy.es-vichy .es-ingr__container::before {
           display: none;
         }
-        #es-vichy.es-vichy .es-slick-carousel--mobile,
-        #es-vichy.es-vichy .slick-button-prev,
-        #es-vichy.es-vichy .slick-button-next,
-        #es-vichy.es-vichy .es-slider__arrow {
-          display: none;
-        }
         #es-vichy.es-vichy .es-ingr__single {
-          max-width: 140px;
+          max-width: 300px;
           transition: all 0.3s ease;
         }
         #es-vichy.es-vichy .es-ingr .es-ingr__slides:hover .es-ingr__single {
@@ -1408,9 +1404,6 @@
         #es-vichy.es-vichy .es-ingr__img {
           max-width: 200px;
           margin-bottom: 30px;
-        }
-        #es-vichy.es-vichy .es-ingr__img--mobile {
-          display: none;
         }
         #es-vichy.es-vichy .es-ingr__img--desktop {
           display: block;
@@ -1432,15 +1425,6 @@
         }
         #es-vichy.es-vichy .es-ingr__label--1 {
           margin-top: -60px;
-        }
-        #es-vichy.es-vichy .es-ingr__slides--desktop {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          align-items: flex-start;
-          max-width: 620px;
-          gap: 30px;
-          margin: 0 auto;
         }
         #es-vichy.es-vichy .es-compare {
           padding-bottom: 0;
@@ -1470,7 +1454,7 @@
       }
       @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-info__wrapper {
-          background: #fff url(./assets/images/info-image.png) -9px -86px
+          background: #fff url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/info-image.png) -9px -86px
             no-repeat;
           background-size: contain;
         }
@@ -1522,7 +1506,7 @@
           bottom: 0;
           left: -90px;
           margin: auto 0;
-          background: url(./assets/images/list-icon-1.png) no-repeat;
+          background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/list-icon-1.png) no-repeat;
         }
         #es-vichy.es-vichy .es-info__text--2 {
           margin-left: 0;
@@ -1537,7 +1521,7 @@
           bottom: 0;
           left: -90px;
           margin: auto 0;
-          background: url(./assets/images/list-icon-2.png) no-repeat;
+          background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/list-icon-2.png) no-repeat;
         }
         #es-vichy.es-vichy .es-info__text--3 {
           margin-top: 0;
@@ -1553,7 +1537,7 @@
           bottom: 0;
           left: -90px;
           margin: auto 0;
-          background: url(./assets/images/list-icon-3.png) no-repeat;
+          background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/list-icon-3.png) no-repeat;
         }
         #es-vichy.es-vichy .es-info__text--4 {
           margin-top: 0;
@@ -1569,7 +1553,7 @@
           bottom: 0;
           left: -90px;
           margin: auto 0;
-          background: url(./assets/images/list-icon-4.png) no-repeat;
+          background: url(http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/list-icon-4.png) no-repeat;
         }
         #es-vichy.es-vichy .es-icons {
           display: block;
@@ -1607,7 +1591,7 @@
       }
       @media screen and (min-width: 1200px) {
         #es-vichy.es-vichy .es-cross__container {
-          justify-content: space-between;
+          justify-content: center;
         }
         #es-vichy.es-vichy .es-cross__single:not(:last-child) {
           margin-bottom: 25px;
@@ -1690,7 +1674,7 @@
           line-height: 1;
         }
         #es-vichy.es-vichy .es-ingr__img {
-          max-width: 160px;
+          max-width: 185px;
         }
         #es-vichy.es-vichy .es-ingr__img--2,
         #es-vichy.es-vichy .es-ingr__img--3 {
@@ -1748,7 +1732,39 @@
           font-size: 12px;
         }
       }
+      @media screen and (min-width: 1280px) {
+        #es-vichy.es-vichy .es-cross__container {
+          gap: 10px;
+          flex-flow: row;
+          flex-wrap: wrap;
+          align-items: flex-end;
+        }
+      }
       @media screen and (min-width: 1400px) {
+        #es-vichy.es-vichy .es-ingr__slides--desktop {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-items: flex-start;
+          max-width: 620px;
+          gap: 30px;
+          margin: 0 auto;
+        }
+        #es-vichy.es-vichy .es-ingr__container {
+          max-width: 730px;
+          margin: 0 auto;
+          padding: 0;
+          justify-content: space-between;
+        }
+        #es-vichy.es-vichy .es-ingr__img--mobile {
+          display: none;
+        }
+        #es-vichy.es-vichy .es-slick-carousel--mobile,
+        #es-vichy.es-vichy .slick-button-prev,
+        #es-vichy.es-vichy .slick-button-next,
+        #es-vichy.es-vichy .es-slider__arrow {
+          display: none;
+        }
         #es-vichy.es-vichy .es-compare__mobile-wrapper {
           flex-wrap: nowrap;
           justify-content: space-between;
@@ -1833,7 +1849,7 @@
         <div class="es-kv__images">
           <div class="es-kv__logo">
             <img
-              src="./assets/images/logo.png"
+              src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/logo.png"
               alt="logo"
               class="es-kv__img"
             />
@@ -1841,7 +1857,7 @@
           <div class="es-kv__claim"></div>
           <div class="es-kv__packshot">
             <img
-              src="./assets/images/packshot.png"
+              src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/packshot.png"
               alt="Naujiena"
               class="es-kv__img es-kv__img-packshot"
             />
@@ -1874,7 +1890,7 @@
         <div class="es-icons__list">
           <div class="es-icons__item">
             <img
-              src="./assets/images/icon-1.png"
+              src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/icon-1.png"
               alt="Hipoalerginis"
               class="es-icons__icon"
             />
@@ -1882,7 +1898,7 @@
           </div>
           <div class="es-icons__item">
             <img
-              src="./assets/images/icon-2.png"
+              src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/icon-2.png"
               alt="Pigmentinių POKYČIŲ turinčiai odai"
               class="es-icons__icon"
             />
@@ -1893,7 +1909,7 @@
           </div>
           <div class="es-icons__item">
             <img
-              src="./assets/images/icon-3.png"
+              src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/icon-3.png"
               alt="Nakčiai"
               class="es-icons__icon"
             />
@@ -1901,7 +1917,7 @@
           </div>
           <div class="es-icons__item">
             <img
-              src="./assets/images/icon-4.png"
+              src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/icon-4.png"
               alt="Tinka jautriai odai"
               class="es-icons__icon"
             />
@@ -1924,7 +1940,7 @@
           <div class="es-info__img-wrapper">
             <img
               class="es-info__image es-info__image--desktop"
-              src="./assets/images/info-image.png"
+              src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/info-image.png"
               alt="B3 Serum"
             />
           </div>
@@ -1982,7 +1998,7 @@
         </div>
         <img
           class="es-dermatologits__image"
-          src="./assets/images/dermatologist-bg-m.png"
+          src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/dermatologist-bg-m.png"
           alt="mažiau PIGMENTINIŲ POKYČIŲ PER 2 MĖNESIUS"
         />
       </div>
@@ -1998,7 +2014,7 @@
             <div class="es-ingr__single es-ingr__single--1">
               <div class="es-ingr__image">
                 <img
-                  src="./assets/images/ingr-1-m.png"
+                  src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-1-m.png"
                   alt="Niacinamidas 4 % [B3]"
                   class="es-ingr__img"
                 />
@@ -2014,7 +2030,7 @@
             <div class="es-ingr__single">
               <div class="es-ingr__image">
                 <img
-                  src="./assets/images/ingr-2.png"
+                  src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-2.png"
                   alt="grynasis retinolis 0,15 %"
                   class="es-ingr__img es-ingr__img--mobile"
                 />
@@ -2031,7 +2047,7 @@
             <div class="es-ingr__single">
               <div class="es-ingr__image">
                 <img
-                  src="./assets/images/ingr-3.png"
+                  src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-3.png"
                   alt="pantenolis [B5] 5%"
                   class="es-ingr__img es-ingr__img--mobile"
                 />
@@ -2048,7 +2064,7 @@
             <div class="es-ingr__single">
               <div class="es-ingr__image">
                 <img
-                  src="./assets/images/ingr-33.png"
+                  src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-33.png"
                   alt="kolageno peptidai"
                   class="es-ingr__img es-ingr__img--mobile"
                 />
@@ -2065,7 +2081,7 @@
               <div class="es-ingr__image">
                 <img
                   class="es-ingr__img es-ingr__img--mobile es-ingr__img--mobile-big"
-                  src="./assets/images/ingr-4.png"
+                  src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-4.png"
                   alt="Vichy vulkaninis vanduo"
                 />
                 <p class="es-ingr__label">
@@ -2082,7 +2098,7 @@
           <div class="slick-button-prev">
             <div class="es-slider__arrow">
               <img
-                src="./assets/images/arrow-next.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/arrow-next.png"
                 alt=""
                 class="es-slider__img"
               />
@@ -2091,7 +2107,7 @@
           <div class="slick-button-next">
             <div class="es-slider__arrow">
               <img
-                src="./assets/images/arrow-next.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/arrow-next.png"
                 alt=""
                 class="es-slider__img"
               />
@@ -2103,7 +2119,7 @@
           <div class="es-ingr__single">
             <div class="es-ingr__image">
               <img
-                src="./assets/images/ingr-1.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-1.png"
                 alt="Niacinamidas 4 % [B3]"
                 class="es-ingr__img es-ingr__img--1"
               />
@@ -2118,7 +2134,7 @@
           <div class="es-ingr__single">
             <div class="es-ingr__image">
               <img
-                src="./assets/images/ingr-2.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-2.png"
                 alt="grynasis retinolis 0,15 %"
                 class="es-ingr__img es-ingr__img--2"
               />
@@ -2135,7 +2151,7 @@
           <div class="es-ingr__single">
             <div class="es-ingr__image">
               <img
-                src="./assets/images/ingr-3.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-3.png"
                 alt="pantenolis [B5] 5%"
                 class="es-ingr__img es-ingr__img--3"
               />
@@ -2152,7 +2168,7 @@
           <div class="es-ingr__single">
             <div class="es-ingr__image">
               <img
-                src="./assets/images/ingr-33.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-33.png"
                 alt="kolageno peptidai"
                 class="es-ingr__img es-ingr__img--3"
               />
@@ -2168,12 +2184,12 @@
           <div class="es-ingr__single">
             <div class="es-ingr__image">
               <img
-                src="./assets/images/ingr-4.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-4.png"
                 alt="Vichy vulkaninis vanduo"
                 class="es-ingr__img es-ingr__img--mobile es-ingr__img--4"
               />
               <img
-                src="./assets/images/ingr-4-d.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/ingr-4-d.png"
                 alt="Vichy vulkaninis vanduo"
                 class="es-ingr__img es-ingr__img--desktop es-ingr__img--4 es-ingr__img--mobile-big"
               />
@@ -2206,7 +2222,7 @@
                     SPALVOS POKYČIŲ, LĄSTELIŲ ATSINAUJINIMAS
                   </p>
                   <img
-                    src="./assets/images/compare-1.png"
+                    src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/compare-1.png"
                     alt="SPALVOS POKYČIŲ,LĄSTELIŲ ATSINAUJINIMAS"
                     class="es-compare__single-image"
                   />
@@ -2221,7 +2237,7 @@
                     SMULKIŲ RAUKŠLELIŲ UŽPILDYMAS, DRĖKINIMAS, ŠVIESINIMAS
                   </p>
                   <img
-                    src="./assets/images/compare-2.png"
+                    src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/compare-2.png"
                     alt="SMULKIŲ RAUKŠLELIŲ UŽPILDYMAS, DRĖKINIMAS, ŠVIESINIMAS"
                     class="es-compare__single-image"
                   />
@@ -2289,7 +2305,7 @@
                     RAUKŠLIŲ MAŽINIMAS, SPALVOS IŠLYGINIMAS
                   </p>
                   <img
-                    src="./assets/images/compare-3.png"
+                    src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/compare-3.png"
                     alt="NAKTINIS KREMAS „LIFTACTIV COLLAGEN SPECIALIST“"
                     class="es-compare__single-image"
                   />
@@ -2305,7 +2321,7 @@
                     ODOS <br> SUAKTYVINIMAS
                   </p>
                   <img
-                    src="./assets/images/compare-4.png"
+                    src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/compare-4.png"
                     alt="ODOS TANKĮ DIDINANTIS STANDINAMASIS NAKTINIS KREMAS „NEOVADIOL”"
                     class="es-compare__single-image es-compare__single-image--4"
                   />
@@ -2368,7 +2384,7 @@
         <div class="slick-button-2-prev">
           <div class="es-slider__arrow">
             <img
-              src="./assets/images/carousel-2-next.png"
+              src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/carousel-2-next.png"
               alt=""
               class="es-slider__img"
             />
@@ -2377,7 +2393,7 @@
         <div class="slick-button-2-next">
           <div class="es-slider__arrow">
             <img
-              src="./assets/images/carousel-2-next.png"
+              src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/carousel-2-next.png"
               alt=""
               class="es-slider__img"
             />
@@ -2394,7 +2410,7 @@
                   SPALVOS POKYČIŲ, LĄSTELIŲ ATSINAUJINIMAS
                 </p>
                 <img
-                  src="./assets/images/compare-1.png"
+                  src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/compare-1.png"
                   alt="NAKTINIS KREMAS „LIFTACTIV B3“ SU RETINOLIU"
                   class="es-compare__single-image"
                 />
@@ -2409,7 +2425,7 @@
                   SMULKIŲ RAUKŠLELIŲ UŽPILDYMAS, DRĖKINIMAS, ŠVIESINIMAS
                 </p>
                 <img
-                  src="./assets/images/compare-2.png"
+                  src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/compare-2.png"
                   alt="NAKTINIS KREMAS NUO RAUKŠLIŲ „LIFTACTIV SUPREME H.A.“"
                   class="es-compare__single-image"
                 />
@@ -2425,7 +2441,7 @@
                   RAUKŠLIŲ MAŽINIMAS, SPALVOS IŠLYGINIMAS
                 </p>
                 <img
-                  src="./assets/images/compare-3.png"
+                  src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/compare-3.png"
                   alt="NAKTINIS KREMAS „LIFTACTIV COLLAGEN SPECIALIST“"
                   class="es-compare__single-image"
                 />
@@ -2440,7 +2456,7 @@
                   ODOS <br> SUAKTYVINIMAS
                 </p>
                 <img
-                  src="./assets/images/compare-4.png"
+                  src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/compare-4.png"
                   alt="ODOS TANKĮ DIDINANTIS STANDINAMASIS NAKTINIS KREMAS „NEOVADIOL”"
                   class="es-compare__single-image"
                 />
@@ -2539,12 +2555,12 @@
           <div class="es-cross__single">
             <div class="es-cross__packshot es-cross__packshot--1">
               <img
-                src="./assets/images/cross-1.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/cross-1.png"
                 alt="DIENINIS IR NAKTINIS SERUMAS „LIFTACTIV B3 SERUM“"
                 class="es-cross__img"
               />
               <img
-                src="./assets/images/cross-icon-1.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/cross-icon-1.png"
                 alt=""
                 class="es-cross__packshot-icon"
               />
@@ -2564,12 +2580,12 @@
           <div class="es-cross__single es-cross__single--middle">
             <div class="es-cross__packshot es-cross__packshot--2">
               <img
-                src="./assets/images/cross-2.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/cross-2.png"
                 alt="DIENINIS KREMAS „LIFTACTIV B3“ SPF 50"
                 class="es-cross__img es-cross__img--2"
               />
               <img
-                src="./assets/images/cross-icon-2.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/cross-icon-2.png"
                 alt=""
                 class="es-cross__packshot-icon"
               />
@@ -2590,12 +2606,12 @@
           <div class="es-cross__single">
             <div class="es-cross__packshot es-cross__packshot--3">
               <img
-                src="./assets/images/cross-3.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/cross-3.png"
                 alt=""
                 class="es-cross__img es-cross__img--3"
               />
               <img
-                src="./assets/images/cross-icon-3.png"
+                src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/cross-icon-3.png"
                 alt="NAKTINIS KREMAS „LIFTACTIV B3“ SU RETINOLIU"
                 class="es-cross__packshot-icon"
               />
@@ -2693,12 +2709,12 @@
         </p>
         <img
           class="es-disclaimer__img es-disclaimer__img--mobile"
-          src="./assets/images/disclaimer-img.png"
+          src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/disclaimer-img.png"
           alt="packshots"
         />
         <img
           class="es-disclaimer__img es-disclaimer__img--desktop"
-          src="./assets/images/qa-bg.png"
+          src="http://localhost/eStoreLabs/RC---LO-484-Vichy-Night-Cream-LT/assets/images/qa-bg.png"
           alt="packshots"
         />
       </div>
@@ -2751,12 +2767,31 @@
     $(document).ready(function () {
       $('.es-slick-carousel:not(.slick-initialized)').slick({
         infinite: false,
-        slidesToShow: 1,
-        centerMode: true,
-        cssEase: 'linear',
+        slidesToShow: 3,
+        centerMode: false,
+        variableWidth: false,
         prevArrow: '.slick-button-prev',
         nextArrow: '.slick-button-next',
-        variableWidth: true,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+              centerMode: true,
+              variableWidth: false,
+            }
+          },
+          {
+          breakpoint: 1200,
+            settings: {
+              slidesToShow: 1,
+              centerMode: true,
+              variableWidth: false,
+              prevArrow: '.slick-button-prev',
+              nextArrow: '.slick-button-next',
+            }
+          }
+        ]
       });
     });
 
